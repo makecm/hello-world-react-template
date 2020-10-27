@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0126f5ea.chunk.css",
+    "main.js": "/static/js/main.d4d138a5.chunk.js",
+    "main.js.map": "/static/js/main.d4d138a5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cb77f207.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cb77f207.js.map",
+    "static/css/2.69952563.chunk.css": "/static/css/2.69952563.chunk.css",
+    "static/js/2.1dd06a28.chunk.js": "/static/js/2.1dd06a28.chunk.js",
+    "static/js/2.1dd06a28.chunk.js.map": "/static/js/2.1dd06a28.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.69952563.chunk.css.map": "/static/css/2.69952563.chunk.css.map",
+    "static/css/main.0126f5ea.chunk.css.map": "/static/css/main.0126f5ea.chunk.css.map",
+    "static/js/2.1dd06a28.chunk.js.LICENSE.txt": "/static/js/2.1dd06a28.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/ibm-plex-sans-latin-700italic.f471d38a.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb77f207.js",
+    "static/css/2.69952563.chunk.css",
+    "static/js/2.1dd06a28.chunk.js",
+    "static/css/main.0126f5ea.chunk.css",
+    "static/js/main.d4d138a5.chunk.js"
+  ]
+}
