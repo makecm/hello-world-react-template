@@ -1,3 +1,5 @@
+import './shapes.css'
+
 const Shapes = ({ ...rest }) => {
   function getRandomLength() {
     return Math.floor(Math.random() * 500 + 100);
@@ -7,7 +9,7 @@ const Shapes = ({ ...rest }) => {
   }
 
   return (
-    <div style={{ overflow: 'hidden', backgroundColor: 'white' }}>
+    <div style={{ overflow: 'hidden' }}>
       <svg
         className="svg-shapes"
         xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,37 @@
+.shape-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.svg-shapes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+}
+
+.svg-shapes circle {
+  fill: transparent;
+  stroke: url(#bggrad);
+  stroke-linecap: round;
+  animation: bgmove 200s linear infinite;
+}
+
+@keyframes bgmove {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
