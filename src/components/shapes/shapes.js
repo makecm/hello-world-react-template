@@ -1,6 +1,6 @@
 import './shapes.css'
 
-const Shapes = ({ ...rest }) => {
+const Shapes = () => {
   function getRandomLength() {
     return Math.floor(Math.random() * 500 + 100);
   }

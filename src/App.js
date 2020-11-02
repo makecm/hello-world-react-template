@@ -5,10 +5,10 @@ import Logos from './components/logos/logos'
 import {ReactComponent as MakeLogo} from './logo.svg'
 import {ReactComponent as ReactLogo} from './react-logo.svg'
 
-function App({ headline, showLogo, backgroundImage }) {
+function App({ headline, showLogos, backgroundImage }) {
   return (
     <div className="App" style={{ backgroundImage: `url('${backgroundImage}')` }}>
-      {showLogo && (
+      {showLogos && (
         <Logos logoOne={<MakeLogo />} logoTwo={<ReactLogo />} />
       )}
 
@@ -23,13 +23,13 @@ function App({ headline, showLogo, backgroundImage }) {
 
 App.propTypes = {
   headline: PropTypes.string,
-  showLogo: PropTypes.bool,
+  showLogos: PropTypes.bool,
   backgroundImage: PropTypes.string,
 }
 
 App.defaultProps = {
   headline: 'Hello World',
-  showLogo: true,
+  showLogos: true,
   backgroundImage: '',
 }
 
