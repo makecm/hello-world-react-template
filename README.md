@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Looking for a different language?
 - React
-  - [Gatsby](/react/gatsby) 🚧
-  - [NextJS](/react/next-js) 🚧
-- [Vue](/vue)
-- [Angular](/angular) 🚧
+  - [Gatsby](https://github.com/Outfitio/make-hello-world-gatsby-template) 🚧
+  - [NextJS](https://github.com/Outfitio/make-hello-world-next-js-template) 🚧
+- [Vue](https://github.com/Outfitio/make-hello-world-vue-template)
+- [Angular](https://github.com/Outfitio/make-hello-world-angular-template) 🚧
 
 <img src="https://files.outfit.io/media_library_items/236740/Screen%2520Shot%25202020-11-03%2520at%252010.34.34%2520am.png" style="width: 60%; margin: 0 auto; display: block;" alt="make starter template" />
 
