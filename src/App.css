@@ -1,6 +1,8 @@
+*{box-sizing:border-box}
 html,body {
   margin: 0;
-  overflow:hidden;padding:0;
+  padding:0;
+  overflow:hidden;
   max-width: 100vw;
   max-height:100vh;
   font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
