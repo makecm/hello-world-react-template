@@ -8,7 +8,7 @@ import {ReactComponent as ReactLogo} from './react-logo.svg'
 function App({ headline, showLogos, backgroundImage }) {
   return (
     <div className="App" style={{ backgroundImage: `url('${backgroundImage}')` }}>
-      {showLogos === 'true' && (
+      {showLogos && (
         <Logos logoOne={<MakeLogo />} logoTwo={<ReactLogo />} />
       )}
 
@@ -29,7 +29,7 @@ App.propTypes = {
 
 App.defaultProps = {
   headline: 'Hello World',
-  showLogos: 'true',
+  showLogos: true,
   backgroundImage: '',
 }
 
